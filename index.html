@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img-icon/list-solid.svg" />
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="./desktop.css" />
+      <link rel="stylesheet" href="./mobile.css">
+      <link rel="stylesheet" href="./iphone.css">
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"
+      integrity="sha512-Eezs+g9Lq4TCCq0wae01s9PuNWzHYoCMkE97e2qdkYthpI0pzC3UGB03lgEHn2XM85hDOUF6qgqqszs+iXU4UA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer">
+  </script>
+  </head>
+  <body>
+    <div class="myDiv">
+      <div class="myForm">
+<!--Top-->
+        <div class="span"></div>
+        <h2>To-Do List</h2>
+        <div class="sorting">
+          <button class="sort"></button>
+        </div>
+<!--Center-->
+        <div class="myInp">
+          <div class="myList wrap" style="flex-direction: column"></div>
+          <div id="myBtnForm">
+            <input type="text" id="textArea" name="" maxlength="40" placeholder="Type a task ..."/>
+            <button class="myBtn"></button>
+          </div>
+        </div>
+<!--Bottom--->
+        <div class="addText">
+          <button class="plusBtn">+</button>
+          <p>Add</p>
+        </div>
+      </div>
+    </div>
+    <script src="./toDoList.js"></script>
+  </body>
+</html>

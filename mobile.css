@@ -1,0 +1,199 @@
+@media only screen and (max-width: 400px) and (min-width: 300px){
+
+    #myBtnForm{
+      width: 243px;
+    }
+
+    #textArea{
+      width: 185px;
+    }
+
+    .sort{
+      margin-right: 20px;
+    }
+
+    .myForm {
+      width: 290px;
+      max-height: 397px;
+      border: 1px solid #c4c4c4;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .span {
+      background-color: #ffdc40;
+      border-radius: 9px 9px 0 0;
+      width: 100%;
+      height: 28px;
+    }
+
+    h2 {
+      font-size: 26px;
+      text-align: center;
+      margin-bottom: 16px;
+      margin-top: 13px;
+    }
+
+    .sorting {
+      width: 274px;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .sort {
+      background: url(./img/sort.svg);
+      width: 25px;
+      height: 15px;
+      border: none;
+      background-color: white;
+      cursor: pointer;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .sort:hover{
+      background: url(./img/sorted.svg);
+      width: 25px;
+      height: 15px;
+      transition: 0.2s;
+    }
+
+    .myInp {
+      border: 1px solid #c4c4c4;
+      width: 243px;
+      max-height: 200px;
+      border-radius: 10px;
+      margin-top: 11px;
+      overflow-y: auto;
+      overflow-x: hidden;
+    }
+
+    .myInp input {
+      margin: 0 0 5px 5px;
+      width: 222px;
+      height: 20px;
+      outline-style: none;
+      border: none;
+      font-size: 14px;
+    }
+
+    #myBtnForm{
+      height: 30px;
+      margin-top: 10px;
+    }
+
+    .myBtn {
+      float: right;
+      margin-right: 23px;
+      border: none;
+      cursor: pointer;
+      height: 20px;
+      background: url(./img/closeBtn.svg);
+      width: 20px;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .myBtn:hover {
+      height: 21px;
+      width: 21px;
+      border: none;
+      transition: 0.2s;
+    }
+
+    .addText {
+      margin-top: 18px;
+      width: 150px;
+      height: 42px;
+      background-color: #833ae0;
+      border: none;
+      border-radius: 25px;
+      color: white;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      margin-bottom: 19px;
+    }
+
+    .addText button {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      background-color: #9953f1;
+      border: none;
+      color: white;
+      cursor: pointer;
+    }
+
+    .addText p {
+      font-size: 14px;
+      margin-left: 11px;
+    }
+
+    .addText:hover {
+      opacity: 0.8;
+      transition: 0.3s ease;
+    }
+
+    .myList{
+      padding:10px 5px 0 5px;
+      display: none;
+      border-radius: 10px;
+      width: 243px;
+    }
+
+    .wrap{
+      display: none;
+    }
+
+    ::-webkit-scrollbar {
+      width: 7px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1; 
+      border-radius: 100px;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #888; 
+      border-radius: 100px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #555; 
+    }
+
+    .myList p{
+      font-size: 14px;
+    }
+    
+    .showMyLi{
+      width: 229px;
+      font-size: 14px;
+      margin-bottom: 7px;
+      cursor: move;
+      user-select: none;
+      display: flex;
+      text-align: center;
+      justify-content: space-between;
+    }
+
+    .remove-btn{
+      background: url(./img/closeBtn.svg);
+      width: 20px;
+      height: 20px;
+      border: none;
+      margin-right: 14px;
+      cursor: pointer;
+    }
+
+    .remove-btn:hover{
+      background: url(./img/closeBtnHov.svg);
+      width: 20px;
+      height: 20px;
+      transition: 0.3s;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin-right: 14px;
+    }
+  }

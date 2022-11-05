@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  font-family: "Roboto";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+.myDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1326px) and (min-width: 400px){
+.myForm {
+  width: 333px;
+  max-height: 397px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+}
+
+.span {
+  width: 100%;
+  height: 28px;
+  background-color: #ffdc40;
+  border-radius: 9px 9px 0 0;
+}
+
+h2 {
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 16px;
+  margin-top: 13px;
+}
+
+.sort {
+  background: url(./img-icon/sort.svg);
+  width: 25px;
+  height: 15px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sort:hover{
+  background: url(./img-icon/sorted.svg);
+  width: 25px;
+  height: 15px;
+  transition: 0.2s;
+}
+
+.sorting {
+  width: 274px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.myInp {
+  border: 1px solid #c4c4c4;
+  width: 286px;
+  max-height: 200px;
+  border-radius: 10px;
+  margin-top: 11px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.myInp input { 
+  margin: 0 0 5px 5px;
+  width: 222px;
+  height: 20px;
+  outline-style: none;
+  border: none;
+  font-size: 14px;
+}
+
+.myBtn {
+  float: right;
+  margin-right: 23px;
+  border: none;
+  cursor: pointer;
+  height: 20px;
+  background: url(./img/closeBtn.svg);
+  width: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+.myBtn:hover {
+  height: 21px;
+  width: 21px;
+  border: none;
+  transition: 0.2s;
+}
+
+#myBtnForm{
+  height: 30px;
+  margin-top: 10px;
+}
+
+.addText {
+  margin-top: 18px;
+  width: 150px;
+  height: 42px;
+  background-color: #833ae0;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-bottom: 19px;
+}
+
+.addText button {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: #9953f1;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.addText p {
+  font-size: 14px;
+  margin-left: 11px;
+}
+
+.addText:hover {
+  opacity: 0.8;
+  transition: 0.3s ease;
+}
+
+.myList{
+  padding:10px 5px 0 5px;
+  display: none;
+  border-radius: 10px;
+  width: 286px;
+}
+
+.wrap{
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 100px;
+}
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 100px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.myList p{
+  font-size: 18px;
+}
+
+.showMyLi{
+  width: 270px;
+  font-size: 14px;
+  margin-bottom: 7px;
+  cursor: move;
+  user-select: none;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.remove-btn{
+  background: url(./img/closeBtn.svg);
+  width: 20px;
+  height: 20px;
+  border: none;
+  margin-right: 14px;
+  cursor: pointer;
+}
+
+.remove-btn:hover{
+  background: url(./img/closeBtnHov.svg);
+  width: 20px;
+  height: 20px;
+  transition: 0.3s;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 14px;
+}
+}
